@@ -5,9 +5,11 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-     --gradient-color: hsl(137,53,91,100%);
+     --first-color: hsl(140, 40%, 48%);
+     --gradient-color: rgba(219, 244, 226, 1);
      --primary-color:#2EBB77;
      --neutral-color:hsl(0,0,49,100%);
+     --white-color:#fff;
      --subtitle-color:hsl(277,56,66,15%);
 
 

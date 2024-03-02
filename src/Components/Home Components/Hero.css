@@ -1,0 +1,82 @@
+.home{
+    position: relative;
+}
+
+.home__container{
+    padding-top: 2.5rem;
+    row-gap: 2rem;
+    display: grid;
+    text-align: center;
+}
+
+
+.home__data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.home__title{
+  font-size: var(--biggest-font-size);
+  font-family: var(--second-font);
+  margin-bottom: 1.4rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  line-height: 4.4rem;
+}
+
+.home__descrption{
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+    color: var(--neutral-color);
+}
+
+.home__img{
+    position: relative;
+    max-width: 40rem;
+}
+
+.light_btn{
+    padding: 0.7rem ;
+    border-radius: 20px;
+    color: rgba(180, 121, 217, 1);
+    background-color: rgba(180, 121, 217, 0.15) ;
+    cursor: pointer;
+}
+
+
+
+
+.circle-1 , .circle-2, .circle-3,.circle-4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #F4DAFE, #E6F6F9);
+}
+
+
+.circle-1{
+    top: 10rem;
+    left: 3rem;
+
+}
+
+.circle-2{
+    top: 2rem;
+    right: 7rem;
+}
+
+.circle-3{
+    right: 3rem;
+    bottom: 3rem;
+}
+.circle-4{
+    left:  2rem;
+    top: 6rem;
+    width: 40px;
+    height: 40px;
+}
+
