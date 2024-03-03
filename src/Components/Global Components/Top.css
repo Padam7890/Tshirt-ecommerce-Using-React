@@ -21,20 +21,7 @@
     padding: 1rem;
 }
 
-.button{
-    display: inline-block;
-    background-color: var(--white-color);
-    border-radius: 4rem;
-    font-weight: var(--font-semi-bold);
-    transition: box-shadow .4s;
-    cursor: pointer;
-    padding: 0.4rem 0.6rem;
 
-}
-
-.button:hover{
-    box-shadow: 0 0 1rem var(--first-color);
-}
 
 .top__message h2{
     font-size: var(--h2-font-size);

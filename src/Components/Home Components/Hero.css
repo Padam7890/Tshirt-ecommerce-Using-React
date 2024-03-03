@@ -36,6 +36,8 @@
 .home__img{
     position: relative;
     max-width: 40rem;
+    justify-self: center;
+
 }
 
 .light_btn{
@@ -79,4 +81,69 @@
     width: 40px;
     height: 40px;
 }
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
 
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    border-radius: 0.75rem;
+    color: #fff;
+    font-weight: var(--font-semi-bold);
+    transition: box-shadow .4s;
+    gap: 0.5rem;
+}
+
+.white-button{
+    color: black;
+    background-color: var(--white-color);
+}
+.buttons a {
+    color: var(--white-color);
+}
+.white-button a{
+    color: black;
+}
+
+.button:hover{
+    box-shadow: 0 0 1rem var(--first-color);
+}
+.white-button:hover{
+    box-shadow: 0 0 0.2rem var(--first-color);
+}
+
+.home__footer__description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.home__footer__description .title{
+    font-size: var(--big-font-size);
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+}
+
+
+
+
+.line{
+    width: 1px;
+    height: 62.45px;
+    background-color: #cccccc;
+}
