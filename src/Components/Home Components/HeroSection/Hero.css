@@ -125,7 +125,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.3rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
     margin-top: 1.3rem;
     margin-bottom: 1rem;
@@ -136,14 +136,13 @@
     font-weight: bold;
     margin-top: 1rem;
     margin-bottom: 0.2rem;
-
 }
 
+ .main__content{
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
 
-
-
-.line{
-    width: 1px;
-    height: 62.45px;
-    background-color: #cccccc;
-}
+  

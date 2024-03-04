@@ -6,14 +6,18 @@
     padding-top: 2.5rem;
     row-gap: 2rem;
     display: grid;
-    text-align: center;
 }
 
 .custom__header h2{
     font-size: var(  --h1-font-size);
     margin-bottom: 1rem;
     font-weight: bold;
+    text-align: center;
 
+
+}
+.custom__header p{
+    text-align: center;
 }
 
 .custom__header p , .paragraph__detail{
@@ -57,3 +61,8 @@
     max-width: 40rem;
     justify-self: center;
 }
+.paragraph__detail{
+    margin-top: 1rem;
+    max-width: 350px;
+   
+  }

@@ -61,7 +61,6 @@ const HeroSection = () => {
               <p className="title">4K + </p>
               <p className="subtitle">Collections</p>
             </div>
-            <div className="line"></div>
             <div className="right__side">
               <p className="title">9K + </p>
               <p className="subtitle">items trusted to deliver</p>
