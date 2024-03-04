@@ -1,0 +1,26 @@
+
+  .mainContainer{
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .mainContainer .container{
+    padding: 10px ;
+    overflow: hidden;
+
+  }
+  
+  .mainContainer .container img{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    object-fit: contain;
+    gap: 5px;
+    cursor: pointer;
+    overflow: hidden;
+
+  }

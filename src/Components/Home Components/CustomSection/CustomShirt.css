@@ -1,0 +1,59 @@
+.custom_shirt{
+    position: relative;
+}
+
+.Custom_container{
+    padding-top: 2.5rem;
+    row-gap: 2rem;
+    display: grid;
+    text-align: center;
+}
+
+.custom__header h2{
+    font-size: var(  --h1-font-size);
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+.custom__header p , .paragraph__detail{
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+    color: var(--neutral-color);
+}
+
+.paragraph__detail{
+    margin-top: 1rem;
+}
+
+.info__details h3{
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+}
+
+.main__content .first__item{
+    display: grid;
+    row-gap: 1.4rem;
+}
+
+.circle_icon{
+    order: -1;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 18px rgba(20,40,130,20%);
+    
+}
+
+
+.first__item .image{
+    position: relative;
+    max-width: 40rem;
+    justify-self: center;
+}

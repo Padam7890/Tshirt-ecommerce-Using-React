@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hero.css";
-import heroitem from "../../assets/img/itemhero.png";
+import heroitem from "../../../assets/img/itemhero.png";
 import { motion } from "framer-motion";
-import Button from "../Reusable Components/Button";
+import Button from "../../Reusable Components/Button";
 
 const HeroSection = () => {
   const motionProperties = {
@@ -33,7 +33,7 @@ const HeroSection = () => {
 
   return (
     <section className="home section" id="home">
-      <div className="home__container container container grid">
+      <div className="home__container container grid">
         <div className="home__data">
           <div className="subtitle">
             <button className="light_btn">Create your own </button>
