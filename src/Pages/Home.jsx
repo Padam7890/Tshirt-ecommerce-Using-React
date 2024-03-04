@@ -5,6 +5,7 @@ import HeroSection from "../Components/Home Components/HeroSection/HeroSection";
 import Logo from "../Components/Home Components/LogoSection/Logo";
 import LogoImages from "../Components/Global Components/Logos/LogoImages";
 import CustomShirt from "../Components/Home Components/CustomSection/CustomShirt";
+import Bring from "../Components/Home Components/BringSection/Bring";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         {/* <Logo/>
         <LogoImages/> */}
         <CustomShirt/>
+        <Bring/>
 
       </main>
     </div>

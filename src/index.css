@@ -250,11 +250,16 @@ max-width: 100%;
 
 
 @media screen and (min-width: 768px) {
-  .home__container
+  .home__container, .Bring_container
   {
      grid-template-columns: repeat(2, 330px);
      align-items: center;
   }
+
+  .bring__content{
+    align-items: start;
+
+}
 
   .header {
     padding: 0 10%;
@@ -323,6 +328,7 @@ max-width: 100%;
 @media screen and (min-width:1150px){
 
   .home__container
+  ,.Bring_container
   {
      grid-template-columns: repeat(2, 500px);
      align-items: center;
@@ -331,6 +337,9 @@ max-width: 100%;
     padding: 0 15%;
     background-color: white;
 
+  }
+  .bring__content h2 {
+   line-height: 3rem;
   }
 
 

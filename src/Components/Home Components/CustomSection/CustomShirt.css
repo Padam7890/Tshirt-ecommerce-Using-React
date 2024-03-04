@@ -13,8 +13,6 @@
     margin-bottom: 1rem;
     font-weight: bold;
     text-align: center;
-
-
 }
 .custom__header p{
     text-align: center;
@@ -63,6 +61,6 @@
 }
 .paragraph__detail{
     margin-top: 1rem;
-    max-width: 350px;
+    max-width: 430px;
    
   }
